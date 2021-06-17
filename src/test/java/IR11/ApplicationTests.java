@@ -1,4 +1,7 @@
 package IR11;
+import IR11.Exam.AlgorhythmRes;
+import IR11.Exam.workingAlgorhythm;
+import IR11.Exam.AlgorhythmRes;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -48,5 +51,20 @@ class ApplicationTests {
             3, 7, 7, 7, 6, 7, 9, 5, 7, 8, 0, 6
         });
         assertEquals(1, calculator.FindSequenceLength());
+    }
+    
+    @Test
+    void testExam1()
+    {
+        assertEquals(0.023255813866853714, workingAlgorhythm.Function(7));
+    }
+    
+    @Test
+    void testExam2()
+    {
+        AlgorhythmRes fr = new AlgorhythmRes();
+        float[] args = new float[]{3f, 4f, 5f};
+        fr.setUpArguments(args);
+        assertEquals("[0.06666667, 0.045454547, 0.03448276]", fr.Function());
     }
 }

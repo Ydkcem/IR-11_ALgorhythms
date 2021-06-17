@@ -18,6 +18,7 @@
                 <a href="lab5.jsp">Lab 5</a>
                 <a href="lab6.jsp">Lab 6</a>
                 <a href="lab8.jsp">Lab 8</a>
+                <a href="exam.jsp"><h1>Exam</h1>></a>
         </div>
     </body>
 </html>
