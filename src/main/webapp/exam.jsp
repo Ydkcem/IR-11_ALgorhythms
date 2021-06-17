@@ -23,7 +23,7 @@
             </div>
             <p class="center"><b></b><%=request.getAttribute("result")%></p>
         </form>
-        <%! AlgorhythmRes fr = new AlgorhythmRes(10); %>
+        <%! AlgorhythmRes fr = new AlgorhythmRes(58); %>
         <p class="center">Args: <%= fr.resArguments() %> </p>
         <p class="center">Results:<%= fr.Function() %></p>
         </form>
